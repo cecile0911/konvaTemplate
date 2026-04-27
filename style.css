@@ -1,11 +1,36 @@
+:root{
+  font-size: 16px;
+}
+
 main {
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
 
+h1{
+  font-size: 2rem;
+}
+
+.toolbar{
+  font-size: 1.5rem;
+}
 .stageContainer {
   background-color: rgb(255, 191, 118);
   flex: 1;
   cursor: crosshair;
+}
+
+#aspect{
+  background-color: pink;
+  width: 16%;
+  height: 9%;
+}
+@media (any-hover: none){
+  h1{
+    font-size: 3rem;
+  }
+  .toolbar{
+    color:red;
+  }
 }
